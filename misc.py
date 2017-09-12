@@ -11,4 +11,4 @@ Output: [APP LOG] log
 '''
 
 def mlog(str, level="APP LOG"):
-	print "[%s] %s" % (level, str)
+    print "[%s] %s" % (level, str)
