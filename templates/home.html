@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What's in the video?</title>
+</head>
+<body>
+  {% if message %}
+  <p style="color:red">{{ message }}</p>
+  {% endif %}
+  <form action="/res" method="post">
+    <legend>Please enter the url of the video you want to find out(with http/https):</legend>
+    <p><input name="video_url" placeholder="Url" value="{{ video_url }}"></p>
+    <p><button type="submit">Go!</button></p>
+  </form>
+</body>
+</html>
