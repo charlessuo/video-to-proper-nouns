@@ -1,4 +1,4 @@
-# Project Title
+# Video To Proper Nouns
 
 This project is to create a web service that will take a video as input, extract its audio, run speech
 recognition and find the proper nouns (names) of the transcript
@@ -8,6 +8,12 @@ recognition and find the proper nouns (names) of the transcript
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
+
+Git clone this repo to your local
+
+(Due to the large file size of the CoreNLP libraries, they are excluded from this repo and to run the app, you need to download yourself as below:)
+Download CoreNLP 3.8.0 from its [official website](https://stanfordnlp.github.io/CoreNLP/download.html)
+Unzip the file downloaded, and move the unziped folder into your cloned repo folder
 
 Install Dependencies:
 
