@@ -11,8 +11,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 Git clone this repo to your local
 
-(Due to the large file size of the CoreNLP libraries, they are excluded from this repo and to run the app, you need to download yourself as below:)
+(Due to the large file size of the CoreNLP libraries, they are excluded from this repo and to run the app, you need to download yourself as below)
+
 Download CoreNLP 3.8.0 from its [official website](https://stanfordnlp.github.io/CoreNLP/download.html)
+
 Unzip the file downloaded, and move the unziped folder into your cloned repo folder
 
 Install Dependencies:
